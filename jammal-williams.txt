@@ -71,12 +71,19 @@
     35. How often should I commit to github?
         Every twenty minutes
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin jammal-williams
     37. Walk me through Lambda's git flow. 
+        Fork repo, clone repo through command line, change directory into cloned git folder, create a new branch, do work, commit every twenty minutes, push saved file to github, create a pull request to jammal-williams branch on the forked git repo.
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        Inline element stays in its own line, a block element creates a block on the page.
     2. What happens when an element is positioned absolutely? 
+        It stays in the same place regardless of scrolling.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        margin: 0;
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Block: div, header, section. Inline: span
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        Each element is its own box on the page. We can make all elements respect their widths by using position: flex{}
